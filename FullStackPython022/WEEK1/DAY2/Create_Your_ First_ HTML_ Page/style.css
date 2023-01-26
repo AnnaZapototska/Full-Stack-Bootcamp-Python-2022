@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(154, 169, 173);
+}
+
+.cat {
+    color: rgb(14, 13, 13);
+    border-bottom: 2px solid black;
+}
+
+h3 {
+    color: rgb(14, 13, 13);
+    text-decoration: underline;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+div.text1 {
+    font-family: oblique;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.imageL {
+    text-align: center;
+}
+
+
+table,
+td,
+th {
+    margin: auto;
+    border: 1px solid rgb(27, 25, 25);
+}
+
+#table1 {
+    background-color: #a2bdbd;
+}
+
+#table2 {
+    background-color: #cee6e6;
+}
