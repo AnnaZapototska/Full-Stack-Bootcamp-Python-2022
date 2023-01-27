@@ -1,9 +1,34 @@
 // ex1
+// Instructions
+// Store your favorite food into a variable.
+// Store your favorite meal of the day into a variable (ie. breakfast, lunch or dinner)
+// Console.log I eat <favorite food> at every <favorite meal>
+
 var favoriteFood = 'cake';
 var day = 'dinner';
 console.log(`I eat ${favoriteFood} at every ${day}`);
 
-// ex2
+// // ex2
+// Instructions
+// Part I
+// Using this array : const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
+
+// Create a variable named myWatchedSeriesLength that is equal to the number of series in the myWatchedSeries array.
+
+// Create a variable named myWatchedSeriesSentence, that is equal to a sentence describing the series you watched
+// For example : black mirror, money heist, and the big bang theory
+
+// Console.log a sentence using both of the variables created above
+// For example : I watched 3 series : black mirror, money heist, and the big bang theory
+
+
+// Part II
+// Change the series “the big bang theory” to “friends”. Hint : You will need to use the index of “the big bang theory” series.
+// Add, at the end of the array, the name of another series you watched.
+// Add, at the beginning of the array, the name of your favorite series.
+// Delete the series “black mirror”.
+// Console.log the third letter of the series “money heist”.
+// Finally, console.log the myWatchedSeries array, to see all the modifications you’ve made.
     //part1
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 var myWatchedSeriesLength = myWatchedSeries.length;
@@ -20,12 +45,23 @@ console.log(myWatchedSeries[1].charAt(2));
 console.log(myWatchedSeries);
 
 //ex3
+// Instructions
+// Store a celsius temperature into a variable.
+
+// Convert it to fahrenheit and console.log <temperature>°C is <temperature>°F.
+// Hint : Should you create another variable to hold the temperature in fahrenheit? (ie. point 2)
+// Hint: To convert a temperature from celsius to fahrenheit : Divide it by 5, then multiply it by 9, then add 32
+
 
 var tempIntoC = 25;
 var tempIntoF = tempIntoC / 5 * 9 + 32;
 console.log( `A ${tempIntoC} °C is ${tempIntoF} °F.`);
 
 //ex 4
+// For each expression, predict what you think the output will be in a comment (//) without first running the command.
+// Of course, explain each prediction.
+// Then run the expression in the console. Note the actual output in a comment and compare it with your prediction.
+
 let c;
 let a = 34;
 let b = 21;
