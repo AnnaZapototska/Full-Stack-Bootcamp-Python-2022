@@ -13,12 +13,12 @@
 let i = 0;
 let stars = '';
 for (; i <= 5; i++) {
-    stars = stars + '*'
+    stars = stars + " " + '*';
     console.log(stars);
 }
 console.log("\n")
 
-for (let k = 1; k <= 5; k++) {
+for (let k = 1; k <= 6; k++) {
     let row = "";
     for (let j = 1; j <= k; j++) {
         row += "* ";
