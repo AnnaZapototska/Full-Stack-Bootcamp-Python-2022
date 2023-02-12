@@ -26,3 +26,4 @@ for x in text:
 text_list = list(text)
 random.shuffle(text_list)
 print(text_list)
+
