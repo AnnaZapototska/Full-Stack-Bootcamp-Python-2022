@@ -26,5 +26,5 @@ print(include_char)
 
 # solution 2
 string = input("Enter your string: ")
-print("".join(dict.fromkeys(string)))
+print("".join(dict.fromkeys(string))) 
 
