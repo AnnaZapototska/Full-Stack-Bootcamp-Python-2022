@@ -168,7 +168,7 @@ for item in users:
     if item[0] == 'M' or item[0] == 'P' or 'i' in item:
         disney_users_D[item] = i
         i += 1
-    else:
+    else: # this else is redundant
         continue
 
 print(disney_users_D)
