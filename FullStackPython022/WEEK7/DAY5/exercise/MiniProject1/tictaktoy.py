@@ -30,7 +30,7 @@ def display_board():
 def position_check(x):
     if(board[x] == " "):
         return True
-    else:
+    else: # there is no need for the else, you can just replace it with return False
         return False
 
 # checking all board with using
@@ -38,6 +38,7 @@ def check_win():
     # using global, because I want to change this variable inside function
     global game
     # Check horizontal
+    # do you remember what we explained regardign  the comments? for each comment you can take the corresponding code and extract it to function
     for i in range(1, 8, 3):
         if board[i] == board[i + 1] == board[i + 2] and board[i] != ' ':
             game = player_win
