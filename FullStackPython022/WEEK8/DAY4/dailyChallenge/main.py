@@ -12,19 +12,17 @@
 # Please set the p.totalPages and p.currentPage attributes to the appropriate number as there cannot be a page 0.
 # If a page is outside of the totalPages attribute, then the goToPage method should go to the closest page to the number provided (e.g. there are only 5 total pages, but p.goToPage(10) is given: the p.currentPage should be set to 5; if 0 or a negative number is given, p.currentPage should be set to 1).
 
-from typing import List
-
 class Pagination:
-    def __init__(self, items: List, pageSize: int = 10):
+    def __init__(self, items=[], pageSize=10):
         self.items = items
         self.pageSize = int(pageSize)
+        self.totalPages = max(1, len(items) // self.pageSize + (1 if len(items) % self.pageSize != 0 else 0))
         self.currentPage = 1
-        self.totalPages = self.calculateTotalPages()
 
-    def getVisibleItems(self) -> List:
-        start_index = (self.currentPage - 1) * self.pageSize
-        end_index = start_index + self.pageSize
-        return self.items[start_index:end_index]
+    def getVisibleItems(self):
+        start = (self.currentPage - 1) * self.pageSize
+        end = start + self.pageSize
+        return self.items[start:end]
 
     def prevPage(self):
         if self.currentPage > 1:
@@ -44,9 +42,9 @@ class Pagination:
         self.currentPage = self.totalPages
         return self
 
-    def goToPage(self, pageNum: int):
+    def goToPage(self, pageNum):
         pageNum = int(pageNum)
-        if pageNum <= 0:
+        if pageNum < 1:
             self.currentPage = 1
         elif pageNum > self.totalPages:
             self.currentPage = self.totalPages
@@ -54,18 +52,24 @@ class Pagination:
             self.currentPage = pageNum
         return self
 
-    def calculateTotalPages(self):
-        return (len(self.items) + self.pageSize - 1) // self.pageSize
 
 
-alphabetList = "abcdefghijklmnopqrstuvwxyz".split("")
+
+alphabetList = list("abcdefghijklmnopqrstuvwxyz")
+
 p = Pagination(alphabetList, 4)
-
-print(p.getVisibleItems()) # ["a", "b", "c", "d"]
+print(p.getVisibleItems())
 p.nextPage().nextPage()
-print(p.getVisibleItems()) # ["i", "j", "k", "l"]
+print(p.getVisibleItems())
+p.firstPage()
+print(p.getVisibleItems())
 p.lastPage()
-print(p.getVisibleItems()) # ["y", "z"]
+print(p.getVisibleItems())
+p.goToPage(3)
+print(p.getVisibleItems())
 p.goToPage(10)
-print(p.getVisibleItems()) # ["w", "x", "y", "z"]
-
+print(p.getVisibleItems())
+p.goToPage(0)
+print(p.currentPage)
+p.goToPage(-3)
+print(p.currentPage)
