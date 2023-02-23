@@ -17,7 +17,7 @@ class Farm:
         self.farm_name = farm_name
         self.animals = {}
 
-    def add_animal(self, animal_type, count=1):
+    def add_animal(self, animal_type, count=1): # you can make this function in just a single line: self.animals[animal_type] = self.animals.get(animal_type, 0) + count
         animal_type = animal_type.lower()
         if animal_type in self.animals:
             self.animals[animal_type] += count
@@ -36,7 +36,7 @@ class Farm:
         info_str = f"{self.farm_name}'s farm \n\n"
         for animal, count in self.animals.items():
             info_str += f"{animal} : {count}\n"
-        info_str += "\n      E-I-E-I-0!"
+        info_str += "\n      E-I-E-I-0!" # you can use \t rather than the spaces
         return info_str
 
 macdonald = Farm("McDonald")
