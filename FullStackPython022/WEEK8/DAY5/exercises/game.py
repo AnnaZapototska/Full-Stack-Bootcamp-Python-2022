@@ -26,7 +26,7 @@ class Game:
             user_item = input("Select an item: rock/paper/scissors/lizard/spock' ").lower()
             if user_item in valid_items:
                 return user_item
-            else:
+            else: # this else is redundant, please remove it
                 print('Invalid item selected. Please try again.')
 
     def get_computer_item(self):
@@ -35,7 +35,7 @@ class Game:
     def get_game_result(self, user_item, computer_item):
         if user_item == computer_item:
             return 'draw'
-        elif user_item == 'rock' and computer_item == 'scissors' \
+        elif user_item == 'rock' and computer_item == 'scissors' \ # there is no need for elif, replace it with if
                 or user_item == 'paper' and computer_item == 'rock' \
                 or user_item == 'scissors' and computer_item == 'paper' \
                 or user_item == 'lizard' and computer_item == 'spock' \
@@ -45,7 +45,7 @@ class Game:
                 or user_item == 'spock' and computer_item == 'rock' \
                 or user_item == 'rock' and computer_item == 'lizard':
             return 'win'
-        else:
+        else: # the else is redundant, please remove
             return 'loss'
 
     def play(self):
