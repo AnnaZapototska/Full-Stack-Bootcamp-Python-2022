@@ -62,7 +62,7 @@ class Deck:
     def deal(self):
         if len(self.cards) == 0:
             return None
-        else:
+        else: #this else is redundant, please remove, because linke before you are doing return
             return self.cards.pop()
 
 
