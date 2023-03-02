@@ -3,7 +3,7 @@ import math
 
 class Circle:
     def __init__(self, radius=None, diameter=None):
-        if radius is not None and diameter is not None:
+        if radius is not None and diameter is not None: # think how you can implement this login using the classmethid
             raise ValueError("Both radius and diameter cannot be specified")
         elif radius is not None:
             self.radius = radius
@@ -40,15 +40,15 @@ class Circle:
 
     def __add__(self, other):
         print("The radius equal to the sum of the radii of the two circles")
-        return print(Circle(radius=self.radius + other.radius))
+        return print(Circle(radius=self.radius + other.radius)) # you can't return prin, you need to return somehitng of type Circle
 
     def __lt__(self, other):
         print("Compares two circles to see which is smaller")
-        return print(self.radius < other.radius)
+        return print(self.radius < other.radius) # you can't return prin, you need to return boolean
 
     def __eq__(self, other):
         print("Compares two circles to see if they are equal")
-        return print(self.radius == other.radius)
+        return print(self.radius == other.radius) # you can't return prin, you need to return boolean
 
 c = Circle(radius=2)
 print(f"The area circle: {c.area()}")
