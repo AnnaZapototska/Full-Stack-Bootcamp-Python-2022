@@ -144,8 +144,8 @@ print("Next person:", next_person.name)
 next_a_person = q.get_next_blood_type("A")
 print("Next person with blood type A:", next_a_person.name)
 
-print(f"Sort by age:", q.sort_by_age())
-
+q.sort_by_age()
+print("Sort by age: ")
 
 for h in q.humans:
     print(h.name)
