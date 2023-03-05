@@ -12,7 +12,7 @@ class Currency:
     def __repr__(self):
         return self.__str__()
 
-    def __add__(self, other):
+    def __add__(self, other): # the add must return new instance, at the excersice example they run it in the interpreter so it will print automatically 
         if isinstance(other, Currency):
             if other.currency != self.currency:
                 raise Exception(f'Cannot add between Currency type {self.currency} and {other.currency}')
