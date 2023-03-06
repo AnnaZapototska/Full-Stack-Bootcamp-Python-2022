@@ -38,7 +38,7 @@ class Human:
         self.blood_type = blood_type
         self.family = []
 
-    def add_family_member(self, person):
+    def add_family_member(self, person): # there is a bug at this function, le'ts say that we have the following: member A, B, C for A his family member is B and we add C as family member to A then we need to add it also to B
         if person not in self.family:
             self.family.append(person)
             person.add_family_member(self)
