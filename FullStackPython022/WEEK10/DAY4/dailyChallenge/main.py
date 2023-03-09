@@ -8,20 +8,20 @@ class Text:
         count = words.count(word)
         if count == 0:
             return None
-        else:
+        else: # this else is redundant, because one line before we do return, so renive the else
             return f'The word "{word}" appears {count} times in the text.'
 
     def most_common_word(self):
         words = self.text.split()
         word_count = {}
-        for word in words:
+        for word in words: # you can use the word_frequency function
             if word not in word_count:
                 word_count[word] = 1
             else:
                 word_count[word] += 1
         if len(word_count) == 0:
             return None
-        else:
+        else: # this else is redundant, because one line before we do return, so renive the else
             return max(word_count, key=word_count.get)
 
     def unique_words(self):
