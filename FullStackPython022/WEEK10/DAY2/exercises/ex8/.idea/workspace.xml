@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac39d1e9-05ce-4bc5-97c4-51c588c8e022" name="Changes" comment="">
+    <list default="true" id="d19d7e82-29f3-4446-b9e3-b2d98a1a9773" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../4_6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/ex1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/exercise_one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1/func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/ex3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex3/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex4/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/ex7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ex8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise_one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../func.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../WEEK4/DAY3/miniProject/miniProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WEEK4/DAY3/miniProject/miniProject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../WEEK5/DAY2/DailyChallenge/dailyChallenge.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WEEK5/DAY2/DailyChallenge/dailyChallenge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../WEEK5/DAY2/ExerciseXP/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../WEEK5/DAY2/ExerciseXP/index2.html" afterDir="false" />
@@ -29,7 +73,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MslN4aKdsflyrSL0Z5L0J7zOeG" />
+  <component name="ProjectId" id="2MsoDdujbRc3Gp4KHjVOfUK2xrD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,13 +83,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/anna/Documents/FullStackPython022/WEEK10/DAY2/exercises",
+    "last_opened_file_path": "/home/anna/Documents/FullStackPython022/WEEK10/DAY2/exercises/ex8",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="ex4" />
+      <module name="ex8" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -70,16 +118,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ac39d1e9-05ce-4bc5-97c4-51c588c8e022" name="Changes" comment="" />
-      <created>1678564127662</created>
+      <changelist id="d19d7e82-29f3-4446-b9e3-b2d98a1a9773" name="Changes" comment="" />
+      <created>1678565532576</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678564127662</updated>
-      <workItem from="1678564128718" duration="75000" />
+      <updated>1678565532576</updated>
+      <workItem from="1678565533654" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ex8$main.coverage" NAME="main Coverage Results" MODIFIED="1678565962282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
