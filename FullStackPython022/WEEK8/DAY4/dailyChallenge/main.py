@@ -53,8 +53,6 @@ class Pagination:
         return self
 
 
-
-
 alphabetList = list("abcdefghijklmnopqrstuvwxyz")
 
 p = Pagination(alphabetList, 4)

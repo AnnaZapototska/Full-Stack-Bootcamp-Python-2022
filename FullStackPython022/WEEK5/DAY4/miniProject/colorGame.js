@@ -1,5 +1,3 @@
-
-
 generateCollors()
 listenToMain()
 let currentColor

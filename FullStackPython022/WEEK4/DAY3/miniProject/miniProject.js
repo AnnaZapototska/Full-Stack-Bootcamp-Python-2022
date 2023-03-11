@@ -34,7 +34,7 @@ function playTheGame(){
         return;
     } else {
         var computerNumber = Math.round(Math.random() * 10);
-        console.log(computerNumber)
+        // console.log(computerNumber) 
     }
     compareNumbers(userNumber, computerNumber);
 

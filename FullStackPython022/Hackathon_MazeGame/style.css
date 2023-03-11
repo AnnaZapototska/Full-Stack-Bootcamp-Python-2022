@@ -1,0 +1,63 @@
+body {
+    background-color: #5ff3fd;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #maze {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border: 2px solid rgb(22, 17, 17);
+  }
+  
+  .wall {
+    position: absolute;
+    background-color: black;
+  }
+  
+  .horizontal {
+    height: 20px;
+  }
+  
+  .vertical {
+    width: 20px;
+    float: left;
+  }
+  
+  
+  #finish {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    top: 480px;
+    left: 480px;
+  }
+  
+  #player {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #restart-button {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  

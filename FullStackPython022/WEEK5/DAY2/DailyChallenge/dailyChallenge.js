@@ -18,6 +18,9 @@ let click = 0;
     const story = `${noun} ${adjective} ${person} ${verb} ${place}`
     const storyElement = document.querySelector("#story");
     storyElement.innerHTML = story;
+ 
    
   });
 
+
+  
