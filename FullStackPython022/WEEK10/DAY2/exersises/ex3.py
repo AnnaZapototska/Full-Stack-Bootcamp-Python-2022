@@ -1,0 +1,11 @@
+# ex 3
+import random
+import string
+
+
+def random_string():
+    letters = string.ascii_letters
+    return ''.join(random.choice(letters) for i in range(5))
+
+
+print(random_string())
