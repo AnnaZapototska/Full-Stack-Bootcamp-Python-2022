@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+/* font-family: 'Noto Sans', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(146, 178, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: aliceblue;
+    margin: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+
+}
+
+.container .left {
+    position: relative;
+    background-color: rgb(5, 145, 155);
+    padding: 40px;
+
+}
+
+div.prosiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+
+}
+
+.prosiletext .photoPro {
+    position: relative;
+    width: 200px;
+    height: 267px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.prosiletext .photoPro img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prosiletext h2 {
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.prosiletext h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contacts {
+    padding-top: 40px;
+}
+
+.info {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contacts ul {
+    position: relative;
+}
+
+.contacts ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contacts ul li .icon {
+    display: block;
+    width: 50px;
+    font-size: 25px;
+    color: rgb(5, 5, 126);
+    text-align: center;
+}
+.contacts ul li span {
+    color: rgb(151, 188, 221);
+    font-weight: 400;
+}
+
+.edication {
+    padding-top: 50px;
+}
+.edication ul li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.edication li {
+    margin-bottom: 15px;
+}
+.edication h5 {
+    color: rgb(3, 27, 49);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.edication h4 {
+    color: rgb(0, 67, 126);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.container .right {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.about {
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title{
+   color: rgb(8, 8, 87);
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+
+p{
+    color: black;
+}
+
+.about .box{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .company{
+    min-width: 150px;
+}
